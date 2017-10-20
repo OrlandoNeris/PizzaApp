@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.pizzasistem.Registro">
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuario"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="10px"
+        />
+    <EditText
+        android:id="@+id/Edit_usuarioreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"
+
+        />
+    />
+    <EditText
+        android:id="@+id/Edit_contrareg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+
+        />
+    />
+    <EditText
+        android:id="@+id/Edit_correoreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        />
+    />
+   <Button
+       android:id="@+id/Boton_registrar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Registrar"
+       android:layout_gravity="center"
+       />
+
+
+</LinearLayout>
